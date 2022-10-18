@@ -1,0 +1,21 @@
+.cell {
+  height: 50px;
+  width: 50px;
+  border: solid grey 1px;
+}
+
+.active {
+  border: 5px solid hotpink;
+  transform: rotate(45deg);
+  transition: 0.4s;
+}
+
+.palette {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+}
